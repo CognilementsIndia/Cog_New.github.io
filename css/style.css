@@ -612,6 +612,7 @@ svg {
   opacity: 0.5;
   transition: 0.15s;
   cursor: pointer;
+  z-index: 1;
 }
 
 .nav.collapsible--expanded .nav__toggler {
