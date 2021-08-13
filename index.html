@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Document</title>
   </head>
   <body>
@@ -45,7 +45,7 @@
     </div>
     </section>
     
-    <section class="block container home--intro--content">
+    <section class="block container home--intro--content" data-aos="zoom-in-up">
     <div class="home--into--content__header">
       <h1>OUR TAGLINE ONE LINE INTRODUCTION</h1>
     </div>
@@ -59,20 +59,20 @@
     </section>             
     <section class="block container">
       <header class="block__header">
-        <h2>OUR PLATFORM, PRODUCT and SERVICES</h2>
+        <h2>OUR PRODUCTS, SERVICES and PLATFORMS</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
           dolores.
         </p>
       </header>
       <article class="grid grid--1x2 service">
-        <div class="service__content">
+        <div class="service__content" data-aos="fade-left">
           <!-- <span cl ass="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#easy"></use>
               </svg>
             </span> -->
-          <h3 class="service__heading">PLATFORMS</h3>
+          <h3 class="service__heading">Products</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic
             quas nihil repellendus, enim veniam delectus laborum. Iure fugiat
@@ -82,21 +82,20 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <img
-          width="650px"
-          height="400px"
           class="service__image"
-          src="images/dummy.jpg"
+          src="images/product.png"
           alt=""
+          data-aos="fade-right"
         />
       </article>
       <article class="grid grid--1x2 service">
-        <div class="service__content">
+        <div class="service__content" data-aos="fade-right">
           <!-- <span cl ass="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#easy"></use>
               </svg>
             </span> -->
-          <h3 class="service__heading">PRODUCTS</h3>
+          <h3 class="service__heading">Services</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic
             quas nihil repellendus, enim veniam delectus laborum. Iure fugiat
@@ -106,21 +105,20 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <img
-          width="650px"
-          height="400px"
           class="service__image"
-          src="images/dummy.jpg"
+          src="images/service.png"
           alt=""
+          data-aos="fade-left"
         />
       </article>
       <article class="grid grid--1x2 service">
-        <div class="service__content">
+        <div class="service__content" data-aos="fade-left">
           <!-- <span cl ass="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#easy"></use>
               </svg>
             </span> -->
-          <h3 class="service__heading">SERVICES</h3>
+          <h3 class="service__heading">Platform</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic
             quas nihil repellendus, enim veniam delectus laborum. Iure fugiat
@@ -130,11 +128,10 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <img
-          width="650px"
-          height="400px"
           class="service__image"
-          src="images/dummy.jpg"
+          src="images/platform.png"
           alt=""
+          data-aos="fade-right"
         />
       </article>
     </section>
@@ -260,7 +257,7 @@
     </section>
     <section class="block container">
       <header class="block__header">
-        <h2> CLIENTS</h2>
+        <h2>OUR CLIENTS</h2>
       </header>
       <ul class="list block-partner">
         <li> .com $9 </span></li>
@@ -342,7 +339,11 @@
           </section> -->
       </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/main.js"></script>
+  
   </body>
 </html>

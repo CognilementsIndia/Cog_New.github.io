@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
-        <header>
+    <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="#"><img src="images/logo.png" alt="" /></a>
+        <a class="nav__brand" href="#"
+          ><img src="images/logo.png" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
-        <ul class="list nav__list collapsible__content collapsible--expanded">
-          <li class="nav__item"><a href="#">Who We Are</a></li>
-          <li class="nav__item"><a href="#">Our Offerings</a></li>
-          <li class="nav__item"><a href="#">Testimonials</a></li>
-          <li class="nav__item"><a href="#">Blogs</a></li>
-          <li class="nav__item"><a href="#">Career</a></li>
-          <li class="nav__item"><a href="#">Contact Us</a></li>
+        <ul class="list nav__list collapsible__content  collapsible--expanded">
+              <li class="nav__item"><a href="#">Who We Are</a></li>
+              <li class="nav__item"><a href="#">Our Offerings</a></li>
+              <li class="nav__item"><a href="#">Testimonials</a></li>
+              <li class="nav__item"><a href="#">Blogs</a></li>
+              <li class="nav__item"><a href="#">Career</a></li>
+              <li class="nav__item"><a href="#">Contact Us</a></li>
         </ul>
       </nav>
-    </header>
+  </header>
     <div class="hero__content">
       <img
         class="hero__content--inner"
@@ -58,19 +59,10 @@
       <section class="block container">
         <article class="grid grid--1x2 mission">
           <div class="block__content">
-            <!-- <span cl ass="icon-container">
-                    <svg class="icon icon--primary">
-                      <use xlink:href="images/sprite.svg#easy"></use>
-                    </svg>
-                  </span> -->
             <h5 class="block__heading--primary">Our mission</h5>
             <h3 class="block__heading--secodary reveal-text">
-              WE AIM HIGH
+             We Aim High
             </h3>
-            <h4 class="block__italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam
-              delectus laborum.
-            </h4>
             <p class="mission_paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /><br />
               Ea iure labore fugiat accusamus id vitae, quas hic minima veritatis
@@ -79,18 +71,13 @@
             </p>
           </div>
           <img
-            width="650px"
-            height="400px"
             class="mission__image"
-            src="images/dummy.jpg"
+            src="images/mission&vision.png"
             alt=""
           />
         </article>
       </section>
       <section class="block block-history">
-        <h3 class="block__heading--secodary reveal-text">
-          OUR JOURNEY
-        </h3>
         <div class="grid grid--1x4">
           <div class="block-history__content">
             <!-- <svg class="icon icon--white">
@@ -170,6 +157,7 @@
           </div>
         </div>
       </section>
+      
       <section class="block container">
         <article class="grid grid--1x2 mission">
           <div class="block__content">
@@ -178,8 +166,8 @@
                         <use xlink:href="images/sprite.svg#easy"></use>
                       </svg>
                     </span> -->
-            <h5 class="block__heading--primary">OUR VALUES</h5>
-            <h3 class="block__heading--secodary">WE BELIEVE IN OUR VALUES</h3>
+            <h5 class="block__heading--primary">Our values</h5>
+            <h3 class="block__heading--secodary">Long-Term Vision And Trajectory</h3>
             <h4 class="block__italic">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam
               delectus laborum.
@@ -229,75 +217,147 @@
           </div>
         </article>
       </section>
-      <footer class="block footer">
-        <div class="container grid footer__sections">
-          <section class="collapsible collapsible--expanded footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">Products</h2>
-              <!-- <svg class="icon icon--white collapsible__chevron">
-                  <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg> -->
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Website Hosting</a></li>
-                <li><a href="#">Free Automated Wordpress</a></li>
-                <li><a href="#">Migrations</a></li>
-              </ul>
+            
+    
+    <section class="block container">
+      <header class="block__header">
+        <h2>LEADERSHIP</h2>
+      </header>
+      <div class="grid grid--4col">
+        <div class="block__team block__team-member">
+          <img src="images/Sam.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, possimus!
             </div>
-          </section>
-          <section class="collapsible footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">Company</h2>
-              <!-- <svg class="icon icon--white collapsible__chevron">
-                  <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg> -->
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Affiliates</a></li>
-                <li><a href="#">Blog</a></li>
-              </ul>
-            </div>
-          </section>
-          <section class="collapsible footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">Support</h2>
-              <!-- <svg class="icon icon--white collapsible__chevron">
-                  <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg> -->
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Knowledge Base</a></li>
-                <li><a href="#">FAQ</a></li>
-              </ul>
-            </div>
-          </section>
-          <section class="collapsible footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">Domains</h2>
-              <!-- <svg class="icon icon--white collapsible__chevron">
-                  <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg> -->
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Domain Checker</a></li>
-                <li><a href="#">Domain Transfer</a></li>
-                <li><a href="#">Free Domain</a></li>
-              </ul>
-            </div>
-          </section>
-          <!-- <section class="footer__brand">
-              <img src="images/logo.svg" alt="" />
-              <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
-            </section> -->
+          </div>
         </div>
-      </footer>
-                  
+        <div class="block__team block__team-member">
+          <img src="images/Akshay.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eligendi!
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/Sukumar.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quia?
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/Lokesh.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, optio.
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/Sachin.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat?
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/Chayan.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, exercitationem.
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/ACP.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, asperiores.
+            </div>
+          </div>
+        </div>
+        <div class="block__team block__team-member">
+          <img src="images/Aateesh.png" alt="Avatar" class="image__team" />
+          <div class="image__team__overlay">
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellat.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="block footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <!-- <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg> -->
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <!-- <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg> -->
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <!-- <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg> -->
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <!-- <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg> -->
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Domain Checker</a></li>
+              <li><a href="#">Domain Transfer</a></li>
+              <li><a href="#">Free Domain</a></li>
+            </ul>
+          </div>
+        </section>
+        <!-- <section class="footer__brand">
+            <img src="images/logo.svg" alt="" />
+            <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
+          </section> -->
+      </div>
+    </footer>
     
     <script src="js/main.js"></script>  
   </body>
